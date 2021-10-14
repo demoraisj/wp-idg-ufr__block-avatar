@@ -1,30 +1,32 @@
-export default function Select({ label, attr, options, value, setter }) {
-	function renderOptions(options) {
+export default function Select( { label, attr, options, value, setter } ) {
+	function renderOptions( opts ) {
 		const optionsList = [];
 
-		options.forEach((option) => {
-			const selected = option.value === value;
+		opts.forEach( ( opt ) => {
+			const selected = opt.value === value;
 
 			optionsList.push(
-				<option value={ option.value } selected={ selected }>{ option.label }</option>
-			)
-		})
+				<option value={ opt.value } selected={ selected }>
+					{ opt.label }
+				</option>
+			);
+		} );
 
 		return optionsList;
 	}
 
-	function onChange(event) {
+	function onChange( event ) {
 		const attributes = {};
 
-		attributes[attr] = event.target.value;
-		setter(attributes);
+		attributes[ attr ] = event.target.value;
+		setter( attributes );
 	}
 
 	return (
-		<div style={{ margin: "10px 0" }}>
+		<div style={ { margin: '10px 0' } }>
 			<label htmlFor={ attr }>{ label }</label>
 			<select name={ attr } id={ attr } onChange={ onChange }>
-				{ renderOptions(options) }
+				{ renderOptions( options ) }
 			</select>
 		</div>
 	);

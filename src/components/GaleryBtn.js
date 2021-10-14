@@ -1,11 +1,17 @@
-import {MediaUpload, MediaUploadCheck} from "@wordpress/block-editor";
+import { MediaUpload, MediaUploadCheck } from '@wordpress/block-editor';
 
-export default function GaleryBtn({ text, icon, allowedTypes, attr, setter }) {
-	function onSelect({ url }) {
+export default function GaleryBtn( {
+	text,
+	icon,
+	allowedTypes,
+	attr,
+	setter,
+} ) {
+	function onSelect( { url } ) {
 		const attributes = {};
 
-		attributes[attr] = url;
-		setter(attributes);
+		attributes[ attr ] = url;
+		setter( attributes );
 	}
 
 	return (
@@ -13,13 +19,9 @@ export default function GaleryBtn({ text, icon, allowedTypes, attr, setter }) {
 			<MediaUpload
 				onSelect={ onSelect }
 				allowedTypes={ allowedTypes }
-				render={ ({ open }) => (
-					<button
-						id="galeryBtn"
-						className="bigBtn"
-						onClick={ open }
-					>
-						<i className={icon} />
+				render={ ( { open } ) => (
+					<button id="galeryBtn" className="big-btn" onClick={ open }>
+						<i className={ icon } />
 						{ text }
 					</button>
 				) }

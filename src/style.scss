@@ -6,10 +6,12 @@
  */
 
 .wp-block-create-block-avatar {
-  	.type-icon {
+
+	.type-icon {
+
 		i {
-	  		margin-top: 0.37em !important;
-	  		--icon-size: calc((var(--avatar-icon-size) * 75) / 100) !important;
+			margin-top: 0.37em !important;
+			--icon-size: calc((var(--avatar-icon-size) * 75) / 100) !important;
 		}
-  	}
+	}
 }
