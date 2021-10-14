@@ -1,0 +1,88 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-avatar.show {
+  padding: 30px;
+  cursor: pointer;
+}
+.wp-block-create-block-avatar.show:hover {
+  outline: 2px solid #007cba;
+}
+.wp-block-create-block-avatar.show.very-small {
+  padding: 10px !important;
+}
+
+.wp-block-create-block-avatar.edit {
+  padding: 30px;
+  border: 1px solid black;
+}
+.wp-block-create-block-avatar.edit select {
+  width: 100%;
+  height: 30px;
+  margin: 2px 0 0 0;
+}
+.wp-block-create-block-avatar.edit input {
+  width: 100%;
+  height: 30px;
+  margin: 2px 0 0 0;
+}
+.wp-block-create-block-avatar.edit .bigBtn {
+  color: white;
+  background: #006BA1;
+  width: 100%;
+  height: 60px;
+  margin: 20px 0 10px 0;
+  border: none;
+  border-radius: 5px;
+  transition: all ease-in-out 100ms;
+}
+.wp-block-create-block-avatar.edit .bigBtn:hover {
+  background: #008dd4;
+}
+.wp-block-create-block-avatar.edit .popup {
+  width: 100%;
+  height: 300px;
+  box-shadow: 0 0 10px rgba(112, 128, 144, 0.31);
+  border-radius: 10px;
+  overflow-y: auto;
+  z-index: 1;
+  overflow-x: hidden;
+}
+.wp-block-create-block-avatar.edit .popup .icon-wrapper {
+  padding: 35px 0;
+}
+.wp-block-create-block-avatar.edit .popup .icon-wrapper i:hover {
+  text-shadow: 0 0 10px #007cba;
+  cursor: pointer;
+}
+.wp-block-create-block-avatar.edit.small {
+  padding: 15px;
+}
+.wp-block-create-block-avatar.edit.small .preview, .wp-block-create-block-avatar.edit.small .header .description {
+  display: none;
+}
+.wp-block-create-block-avatar.edit.small .header .title {
+  font-size: 150%;
+}
+.wp-block-create-block-avatar.edit.small .header .svg {
+  width: 60px;
+  height: 30px;
+}
+.wp-block-create-block-avatar.edit.small .bigBtn {
+  font-size: 60%;
+}
+.wp-block-create-block-avatar.edit.small label {
+  font-size: 80%;
+}
+
+.type-icon i {
+  margin-top: 0.37em !important;
+  --icon-size: calc((var(--avatar-icon-size) * 75) / 100) !important;
+}
+
+/*# sourceMappingURL=index.css.map*/

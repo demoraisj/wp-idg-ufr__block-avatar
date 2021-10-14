@@ -1,0 +1,15 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-avatar {
+  	.type-icon {
+		i {
+	  		margin-top: 0.37em !important;
+	  		--icon-size: calc((var(--avatar-icon-size) * 75) / 100) !important;
+		}
+  	}
+}

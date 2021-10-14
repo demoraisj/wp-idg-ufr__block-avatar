@@ -1,0 +1,43 @@
+{
+	"apiVersion": 2,
+	"name": "create-block/avatar",
+	"version": "0.1.0",
+	"title": "Avatar",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "avatar",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+  	"attributes": {
+		"type": {
+		  	"enum": ["icon", "img", "letter"],
+		  	"default": "icon"
+		},
+	  	"text": {
+		  	"type": "string"
+		},
+	  	"size": {
+		  	"enum": ["", "medium", "large"],
+		  	"default": "large"
+		},
+	  	"img": {
+		  	"type": "string"
+		},
+	  	"icon": {
+		  	"type": "string"
+		},
+	  	"letter": {
+		  	"type": "string",
+		  	"default": "A"
+		},
+	  	"color": {
+		  	"type": "string",
+		  	"default": "#c5d4eb"
+		}
+	}
+}
