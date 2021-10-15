@@ -1,6 +1,6 @@
 # wp-idg-ufr__block-avatar
 
-> Bloco de Avatar baseado no componente do Design System do Governo Federal
+> Bloco de Avatar baseado no componente do Design System do Governo Federal <br />
 > @see https://dsgov.estaleiro.serpro.gov.br/components/avatar
 
 ```
