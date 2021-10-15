@@ -1,0 +1,25 @@
+# wp-idg-ufr__block-avatar
+
+> Bloco de Avatar baseado no componente do Design System do Governo Federal
+> @see https://dsgov.estaleiro.serpro.gov.br/components/avatar
+
+```
+=== Avatar ===
+Tags:              block
+Tested up to:      5.8.0
+Stable tag:        0.1.0
+```
+
+## Instalação
+
+Trata-se se um plugin wordpress. Apenas copie para wp-content/plugins e ative no dashboard.
+
+## Desenvolvimento
+
+```bash
+# Atualiza os componentes "wp-idg-ufr__block-components" 
+# @see https://github.com/juniorjmm/wp-idg-ufr__block-components
+npm run update-components
+```
+Demais comandos são herdados do ambiente de desevolvimento @wordpress/create-block
+
