@@ -6,6 +6,7 @@
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
+		"update-components": "rm -rf ./node_modules/wp-idg-ufr__block-components && npm i",
 		"build": "wp-scripts build",
 		"format": "wp-scripts format",
 		"lint:css": "wp-scripts lint-style",
@@ -17,7 +18,8 @@
 		"@wordpress/block-editor": "^7.0.2",
 		"@wordpress/blocks": "^11.1.0",
 		"@wordpress/i18n": "^4.2.2",
-		"lighten-darken-color": "^1.0.0"
+		"lighten-darken-color": "^1.0.0",
+		"wp-idg-ufr__block-components": "git+https://github.com/juniorjmm/wp-idg-ufr__block-components.git"
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^18.0.1"

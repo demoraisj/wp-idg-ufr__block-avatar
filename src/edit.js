@@ -1,13 +1,7 @@
 import { useBlockProps } from '@wordpress/block-editor';
-import Select from './components/Select';
-import Input from './components/Input';
-import GaleryBtn from './components/GaleryBtn';
+import { UFRInput, UFRSelect, UFRGaleryBtn, UFRBlockHeader, UFRIconPicker } from "wp-idg-ufr__block-components";
 import { Fragment } from 'react';
-import IconPicker from './components/IconPicker';
 import { LightenDarkenColor } from 'lighten-darken-color';
-import Header from './components/Header';
-
-import './editor.scss';
 
 /**
  * Componente renderizado no editor de blocos
@@ -66,28 +60,28 @@ export default function edit( { attributes, setAttributes, isSelected } ) {
 			case 'icon':
 				return (
 					<Fragment>
-						<Input
+						<UFRInput
 							label="Cor do ícone"
 							attr="color"
 							type="color"
 							value={ color }
 							setter={ setAttributes }
 						/>
-						<IconPicker setter={ setAttributes } />
+						<UFRIconPicker setter={ setAttributes } />
 					</Fragment>
 				);
 
 			case 'img':
 				return (
 					<Fragment>
-						<GaleryBtn
+						<UFRGaleryBtn
 							text="ESCOLHER A IMAGEM"
 							icon="fas fa-image"
 							allowedTypes={ [ 'image' ] }
 							attr="img"
 							setter={ setAttributes }
 						/>
-						<Input
+						<UFRInput
 							label="Ou insira um endereço:"
 							attr="img"
 							value={ img ?? '' }
@@ -99,26 +93,26 @@ export default function edit( { attributes, setAttributes, isSelected } ) {
 	}
 
 	return isSelected ? (
-		<div { ...useBlockProps( { className: 'edit block-responsive' } ) }>
+		<div { ...useBlockProps( { className: 'edit block-responsive ufr-block-component' } ) }>
 			<div className="row align-items-center">
 				<div className="col config">
-					<Header />
+					<UFRBlockHeader />
 
-					<Select
+					<UFRSelect
 						label="Selecione o tipo de avatar"
 						attr="type"
 						value={ type }
 						options={ typeOptions }
 						setter={ setAttributes }
 					/>
-					<Select
+					<UFRSelect
 						label="Selecione o tamanho do avatar"
 						attr="size"
 						value={ size }
 						options={ sizeOptions }
 						setter={ setAttributes }
 					/>
-					<Input
+					<UFRInput
 						label="Texto que será exibido junto ao avatar (Opcional)"
 						attr="text"
 						value={ text }
@@ -142,7 +136,7 @@ export default function edit( { attributes, setAttributes, isSelected } ) {
 			</div>
 		</div>
 	) : (
-		<div { ...useBlockProps( { className: 'show block-responsive' } ) }>
+		<div { ...useBlockProps( { className: 'show block-responsive ufr-block-component' } ) }>
 			<div className="row">
 				<div className="col-12 text-center">
 					<span className={ 'br-avatar ' + size } title={ text }>
