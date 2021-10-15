@@ -2,14 +2,14 @@
 	"apiVersion": 2,
 	"name": "create-block/avatar",
 	"version": "0.1.0",
-	"title": "Avatar",
+	"title": "Blocos WP-IDG-UFR - Avatar",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"description": "Componente do DSGOV para o tema WP da Universidade Federal de Rondonópolis.",
 	"supports": {
 		"html": false
 	},
-	"textdomain": "avatar",
+	"textdomain": "Blocos WP-IDG-UFR - Avatar",
 	"editorScript": "file:./build/index.js",
 	"editorStyle": "file:./build/index.css",
 	"style": "file:./build/style-index.css",

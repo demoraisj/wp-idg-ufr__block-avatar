@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name:       Avatar
- * Description:       Example block written with ESNext standard and JSX support – build step required.
+ * Plugin Name:       Blocos WP-IDG-UFR - Avatar
+ * Description:       Componente do DSGOV para o tema WP da Universidade Federal de Rondonópolis.
  * Requires at least: 5.8
  * Requires PHP:      7.0
  * Version:           0.1.0
- * Author:            The WordPress Contributors
+ * Author:            UFR
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       avatar
