@@ -1,8 +1,8 @@
 {
 	"name": "wp-idg-ufr__block-avatar",
 	"version": "0.1.0",
-	"description": "Example block written with ESNext standard and JSX support – build step required.",
-	"author": "The WordPress Contributors",
+	"description": "Componente do DSGOV para o tema WP da Universidade Federal de Rondonópolis.",
+	"author": "UFR",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
