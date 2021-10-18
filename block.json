@@ -2,7 +2,7 @@
 	"apiVersion": 2,
 	"name": "create-block/avatar",
 	"version": "0.1.0",
-	"title": "Blocos WP-IDG-UFR - Avatar",
+	"title": "UFR - Avatar",
 	"category": "widgets",
 	"icon": "smiley",
 	"description": "Componente do DSGOV para o tema WP da Universidade Federal de Rondonópolis.",
