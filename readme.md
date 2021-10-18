@@ -12,14 +12,17 @@ Stable tag:        0.1.0
 
 ## Instalação
 
-Trata-se se um plugin wordpress. Apenas copie para wp-content/plugins e ative no dashboard.
+Trata-se se um plugin wordpress, copie o conteúdo para wp-contet/plugins e compile.
+```bash
+npm i && npm run build
+```
 
 ## Desenvolvimento
 
 ```bash
 # Atualiza os componentes "wp-idg-ufr__block-components" 
 # @see https://github.com/juniorjmm/wp-idg-ufr__block-components
-npm run update-components
+npm run components-update
 ```
 Demais comandos são herdados do ambiente de desevolvimento @wordpress/create-block
 
