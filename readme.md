@@ -19,7 +19,7 @@ Trata-se se um plugin wordpress. Apenas copie para wp-content/plugins e ative no
 ```bash
 # Atualiza os componentes "wp-idg-ufr__block-components" 
 # @see https://github.com/juniorjmm/wp-idg-ufr__block-components
-npm run update-components
+npm run components-update
 ```
 Demais comandos são herdados do ambiente de desevolvimento @wordpress/create-block
 
