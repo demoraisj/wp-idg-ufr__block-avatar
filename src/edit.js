@@ -18,7 +18,6 @@ export default function edit( { attributes, setAttributes, isSelected } ) {
 	const typeOptions = [
 		{ label: 'Avatar com Ícone', value: 'icon' },
 		{ label: 'Avatar com Imagem', value: 'img' },
-		// { label: 'Avatar com Letra', value: 'letter' },
 	];
 	const sizeOptions = [
 		{ label: 'Grande', value: 'large' },
