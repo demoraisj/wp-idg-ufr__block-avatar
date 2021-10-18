@@ -14,7 +14,7 @@ Stable tag:        0.1.0
 
 Trata-se se um plugin wordpress, copie o conteúdo para wp-contet/plugins e compile.
 ```bash
-npm run build
+npm i && npm run build
 ```
 
 ## Desenvolvimento
