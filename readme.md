@@ -12,7 +12,10 @@ Stable tag:        0.1.0
 
 ## Instalação
 
-Trata-se se um plugin wordpress. Apenas copie para wp-content/plugins e ative no dashboard.
+Trata-se se um plugin wordpress, copie o conteúdo para wp-contet/plugins e compile.
+```bash
+npm run build
+```
 
 ## Desenvolvimento
 
