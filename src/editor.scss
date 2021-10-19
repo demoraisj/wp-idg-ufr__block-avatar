@@ -1,0 +1,13 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-wp-idg-ufr__block-button {
+
+	.type-icon i {
+		margin-top: 0.37em !important;
+		--icon-size: calc((var(--avatar-icon-size) * 75) / 100) !important;
+	}
+}

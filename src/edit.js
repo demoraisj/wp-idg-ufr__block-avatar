@@ -3,6 +3,8 @@ import { UFRInput, UFRSelect, UFRGaleryBtn, UFRBlockHeader, UFRIconPicker } from
 import { Fragment } from 'react';
 import { LightenDarkenColor } from 'lighten-darken-color';
 
+import './editor.scss';
+
 /**
  * Componente renderizado no editor de blocos
  *
