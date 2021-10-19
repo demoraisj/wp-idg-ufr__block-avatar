@@ -97,7 +97,10 @@ export default function edit( { attributes, setAttributes, isSelected } ) {
 		<div { ...useBlockProps( { className: 'edit block-responsive ufr-block-component' } ) }>
 			<div className="row align-items-center">
 				<div className="col config">
-					<UFRBlockHeader />
+					<UFRBlockHeader
+						title="Avatar"
+						subtitle="Escolha o tipo de avatar, e como ele será apresentado."
+					/>
 
 					<UFRSelect
 						label="Selecione o tipo de avatar"
