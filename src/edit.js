@@ -99,7 +99,7 @@ export default function edit( { attributes, setAttributes, isSelected } ) {
 				<div className="col config">
 					<UFRBlockHeader
 						title="Avatar"
-						subtitle="Escolha o tipo de avatar, e como ele será apresentado."
+						description="Escolha o tipo de avatar, e como ele será apresentado."
 					/>
 
 					<UFRSelect
