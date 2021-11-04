@@ -68,7 +68,7 @@ export default function edit( { attributes, setAttributes, isSelected } ) {
 							value={ color }
 							setter={ setAttributes }
 						/>
-						<UFRIconPicker setter={ setAttributes } />
+						<UFRIconPicker setter={ setAttributes } value={ icon } />
 					</Fragment>
 				);
 
