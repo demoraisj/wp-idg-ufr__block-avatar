@@ -19,7 +19,7 @@
 		"@wordpress/blocks": "^11.1.0",
 		"@wordpress/i18n": "^4.2.2",
 		"lighten-darken-color": "^1.0.0",
-		"wp-idg-ufr__block-components": "git+https://github.com/juniorjmm/wp-idg-ufr__block-components.git"
+		"wp-idg-ufr__block-components": "git+https://github.com/juniorjmm/wp-idg-ufr__block-components.git#v1.0.0"
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^18.0.1"
